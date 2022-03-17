@@ -1,0 +1,13 @@
+FROM ubuntu:18.04
+LABEL author="dc morrison"
+ENV REFRESHED_AT 2022-03-14
+
+RUN apt-get update
+RUN apt-get -y install ruby ruby-dev build-essential redis-tools
+RUN gem install --no-rdoc --no-ri sinatra json redis
+
+RUN mkdir - /opt/webapp
+
+EXPOSE 4567
+
+CMD ["/opt/webapp/bin/webapp"]
