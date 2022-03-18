@@ -67,7 +67,7 @@ build-iPhoneSimulator/
 /.vscode-server
 sysinfo.log
 /.docker
-
+.rediscli_history
 
 
 
