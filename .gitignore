@@ -68,6 +68,10 @@ build-iPhoneSimulator/
 sysinfo.log
 /.docker
 .rediscli_history
+.jenkins
+.java
+.respec_failures
+
 
 
 
