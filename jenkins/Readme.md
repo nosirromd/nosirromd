@@ -41,9 +41,9 @@ nosirromd/jenkins
 
 ## Help
 
-Any advise for common problems or issues.
+Be sure to tick Delete workspace before build starts in the Build Environment section of the Jenkins Job config if you want to re-build later.
 ```
-command to run if program contains helper info
+
 ```
 
 ## Authors
